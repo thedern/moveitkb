@@ -1,0 +1,100 @@
+/* css overrides */
+
+.moveit_font {
+  font-family: 'Saira Stencil One', cursive;
+  font-weight: 600;
+}
+
+#sub_title {
+  font-size: 2em;
+}
+
+body {
+  background-color: #333;
+}
+
+footer {
+  background-color: #666;
+  font-size: 1.5em;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-link a:hover {
+  color: orange;
+}
+
+#about-me,
+#about-me-photos {
+  background-color: #000;
+  min-height: 700px;
+  color: #ffffff;
+}
+
+.cert {
+  color: #18bc9c;
+}
+
+#kb_image {
+  background-image: url(../img/ivan-pergasi-KwkDa3eL7kM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 12em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#trx_image {
+  background-image: url(../img/matthew-lejune-uU5Jz-b-0yI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 12em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#flex_image {
+  background-image: url(../img/scott-broome-cuOHHP5tx5g-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 12em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.news {
+  font-size: 2.5em;
+}
+
+#certifications {
+  background-color: #fff;
+}
+
+#testimonials,
+.blockquote-footer {
+  background-color: #000;
+}
+
+/* #calendar {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+} */
+
+#calendar {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding: 50%;
+}
+
+#calendar iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
