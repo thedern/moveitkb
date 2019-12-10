@@ -98,3 +98,8 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+
+#documents {
+  min-height: 600px;
+}
