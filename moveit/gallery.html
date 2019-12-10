@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/overrides.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
     <title>GALLERY</title>
   </head>
   <body>
@@ -119,8 +120,19 @@
           <h3 class="cert moveit_font mt-3 mb-3">
             Photos
           </h3>
-          <h4 class="text-white">Coming Soon...</h4>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="d-flex flex-row flex-wrap justify-content-center mb-3">
+        <div class="d-flex flex-column m-3">
+          <a href="./img/dude1.jpg" data-lightbox="fitness"><img class="border border-danger img-fluid" src="./img/dude1.jpg" alt="dude1"></a>
+          <a href="./img/dude2.jpg" class="mt-3" data-lightbox="fitness"><img class="border border-danger img-fluid" src="./img/dude2.jpg" alt="dude2"></a>
+        </div>
+        <div class="d-flex flex-column m-3">
+          <a href="./img/lady2.jpg" data-lightbox="fitness"><img class="border border-danger img-fluid" src="./img/lady2.jpg" alt="lady2"></a>
+          <a href="./img/lady.jpg" class="mt-3" data-lightbox="fitness"><img class="border border-danger img-fluid" src="./img/lady.jpg" alt="lady"></a>
+       </div>
       </div>
     </div>
 
@@ -178,5 +190,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
+    <script src="./js/lightbox-plus-jquery.js"></script>
   </body>
 </html>

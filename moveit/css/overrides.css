@@ -103,3 +103,7 @@ footer {
 #documents {
   min-height: 600px;
 }
+
+.flex-column {
+  max-width : 260px;
+}
